@@ -1,0 +1,212 @@
+html{
+    font-family: Montserrat;
+    text-align: center;
+}
+
+body{
+    background-color: #FBEDD2;
+}
+
+main{
+    margin: 3rem;
+}
+
+p{
+    line-height: 1.75rem;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: 400;
+}
+
+header{
+    text-align: center;
+    background-color: white;
+}
+
+.logo img{
+    height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2rem;
+}
+
+header ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header li{
+    padding: 2rem;
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+}
+
+header a:hover{
+    background-color: #FBEDD2;
+}
+
+/* statement */
+
+.statement{
+    background-color: white;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+/* products */
+
+.products{
+    background-color: white;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.photos{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic{
+    display: flex;
+    margin: 1rem;
+}
+
+.pic img{
+    height: auto;
+    width: 100%;
+}
+
+/* artist */
+
+
+
+.artist{
+    background-color: white;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.artistpic{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artist img{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* footer */
+
+footer{
+    background-color: white;
+    margin-top: 3rem;
+}
+
+.icons img{
+    width: 2rem;
+    margin: 0.5rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.icons img:hover{
+    background-color: #FBEDD2;
+    cursor: pointer;
+}
+
+footer ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+footer h1{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.list a{
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+}
+
+.list a:hover{
+    background-color: #FBEDD2;
+}
+
+footer .container{
+    display: inline-flex;
+    width: 100%;
+}
+
+.list{
+    float: right;
+    width: 50%;
+}
+
+.copyright{
+    float: left;
+    background-color: white;
+    width: 50%;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+    .pic{
+    display: flex;
+    margin: 1rem;
+    width: 44%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    footer .container{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        background-color: white;
+    }
+    
+    .list{
+        width: 100%;
+        background-color: white;
+        font-size: 0.75rem;
+    }
+
+    .list ul{
+        transform: translate(-0.75rem, -3.5rem);
+    }
+
+    .copyright p{
+        transform: translate(0.5rem, 2.5rem);
+    }
+    
+    .copyright{
+        background-color: white;
+        width: 100%;
+    }
+}
